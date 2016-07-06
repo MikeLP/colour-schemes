@@ -8,6 +8,7 @@ Oh also, I'm British. I'm not making a spelling mistake. It is COLOUR. With the 
 
 This package currently supports colour schemes for:
 
+- [Atom](http://www.atom.io/) (2 & 3)
 - [Sublime Text](http://www.sublimetext.com/) (2 & 3)
 - [Sublime Text UI](http://www.sublimetext.com/) (2 & 3)
 - [Textmate](http://macromates.com/) (Use sublime schemes)
@@ -46,6 +47,18 @@ Xcode                                      | 90%
 ## Installation
 
 Installation of the colour schemes depends greatly upon the type of software that you intend to use them with. Here are the guides for common editors and libraries.
+
+* [Atom](#atom)
+* [Bootstrap](#bootstrap)
+* [Coda 2](#coda-2)
+* [HighlightJS](#highlightjs)
+* [IntelliJ](#intellij)
+* [Sublime Text](#sublime-text)
+* [Sublime UI Themes](#sublime-ui-themes)
+* [TextMate 1.5.x](#textmate-15x)
+* [Textmate 2](#textmate-2)
+* [VIM](#vim)
+* [Xcode Colour Schemes](#xcode-colour-schemes)
 
 ### Sublime Text
 
@@ -155,6 +168,13 @@ To install a Coda theme, enter the preferences for Code, click the 'Colors' tab,
 ### Atom
 
 To install an atom theme, simply copy it from the `atom` directory to `~/.atom/packages`. Now you can select it from the settings menu. Enjoy!
+
+### Emacs
+
+To install an emacs theme, just copy it from the `emacs` directory to `~/.emacs.d/`
+and you can then select it using `m-x load-theme` or set it as the default.
+
+*Heads up. It'll ask you whether you really want to load the theme because it involves running lisp code. Feel free to check everything's safe before you do*
 
 ## Requests
 
